@@ -1,0 +1,6 @@
+{
+  "name": "HWiNFO Log Analyser",
+  "description": "An elegant, high-performance, offline HWiNFO CSV log viewer and analyser with interactive charts and comprehensive search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
