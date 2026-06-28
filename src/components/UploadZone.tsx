@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { Upload, FileText, Settings, Info } from "lucide-react";
+import { Upload, FileText, Settings, Info, Cpu } from "lucide-react";
 import { motion } from "motion/react";
 import { parseHWiNFOCSV } from "../utils/parser";
 import { ParsedLog } from "../types";
@@ -87,7 +87,7 @@ export default function UploadZone({ onLogParsed, onShowAbout, onError }: Upload
         className="text-center mb-8"
       >
         <div className="flex items-center justify-center gap-2 mb-2">
-          <Settings className="w-10 h-10 text-cyan-400 animate-spin-slow" />
+          <Cpu className="w-10 h-10 text-cyan-400" />
           <h1 id="app-title" className="text-4xl font-extrabold tracking-tight text-white bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
             HWiNFO Log Analyser
           </h1>
@@ -171,7 +171,7 @@ export default function UploadZone({ onLogParsed, onShowAbout, onError }: Upload
               <div className="text-left">
                 <h4 className="text-xs font-semibold text-slate-300">Quick Guide to HWiNFO Logging</h4>
                 <p className="text-[11px] text-slate-400 leading-relaxed mt-1">
-                  Click the green "+" icon with the spreadsheet (or the "Logging Start" button) at the bottom of the HWiNFO Sensors screen to save your log file. Perform your test, then upload.
+                  Click the green "+" icon with the spreadsheet (or the "Logging Start" button) at the bottom of the HWiNFO Sensors screen to save your log file. Perform your test, then upload it here.
                 </p>
               </div>
             </div>
