@@ -7,21 +7,20 @@ A sleek, modern web application designed to allow users to easily explore, visua
 <br>
 <br>
 
-## Why This Project? (And Motivations)
+## Why This Project?
 Existing HWiNFO log viewers often feature outdated, cluttered interfaces. This motivated me to build this application to solve that issue by providing a stylish and minimal user interface.
 <br>
 <br>
 
 ## Development Details
-* **Prototyping**: Google AI Studio
-* **Development Approach**: AI-assisted development ('vibe coding')
-This was my first time using an AI-oriented IDE to build an app, and through the course I learned advanced prompting techniques and how to make use of tools in Google AI Studio to effectively streamline the build process.
+* Built using Google AI Studio.
+* **Development Time**: Rapid, took ~4 hours (including time spent navigating the free-tier rate limits).
+* **Development Approach**: AI-assisted development ('vibe coding'). This was my first time using an AI-oriented IDE to build an app, and through the course I learned advanced prompting techniques and how to make use of tools in Google AI Studio to effectively streamline the build process.
 
 
 ## Current Status & Testing
-* **Development Time**: Built rapidly in ~4 hours (including time spent navigating the free-tier rate limits).
-* **Testing Scope**: Seems stable and bug-free from testing using real-world logs from my system (Intel CPU and NVIDIA GPU). 
-* *Note: Extensive cross-hardware testing has not been conducted yet. Contributions and bug reports are welcome!*
+* **Testing Scope**: Seems stable and bug-free from testing using real world logs from my system (Intel CPU and NVIDIA GPU). 
+* *Note: Extensive cross-hardware testing has not been conducted yet. Contributions and bug reports are welcome.*
 
 
 ## To Run Locally:
@@ -38,4 +37,4 @@ This was my first time using an AI-oriented IDE to build an app, and through the
 
 ---
 
-Thank you for exploring my project! If you find it useful, feel free to leave a star.
+Thank you for exploring my project! If you find it useful, feel free to leave a star!
