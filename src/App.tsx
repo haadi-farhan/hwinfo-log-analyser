@@ -175,17 +175,29 @@ export default function App() {
         </AnimatePresence>
       </main>
 
-      {/* Humble aesthetic footer */}
+        {/* Humble aesthetic footer */}
       <footer className="py-6 border-t border-slate-900 bg-slate-950/80 relative z-10">
         <div className="max-w-7xl mx-auto px-4 text-center flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] font-mono text-slate-600">
           <span className="flex items-center gap-1.5 justify-center">
             <BarChart2 className="w-3.5 h-3.5 text-slate-700" />
-            <span>HWiNFO Log Analyser v1.0.0 • Built by Haadi Farhan using Google AI Studio</span>
+            <span>
+              HWiNFO Log Analyser v1.0.0 • Built by{' '}
+              <a 
+                href="https://github.com/haadi-farhan" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-slate-400 transition-colors underline underline-offset-2"
+              >
+                Haadi Farhan
+              </a>{' '}
+              using Google AI Studio
+            </span>
           </span>
           <span>Data Processed Offline</span>
         </div>
       </footer>
     </div>
   );
+
 }
 
